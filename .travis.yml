@@ -2,5 +2,5 @@ language: c
 sudo: false # only for faster builds  
 compiler: gcc
 script:  
-   - gcc -o file check_Prime.c  
+   - gcc -o file static_checking.c  
    - ./file  
