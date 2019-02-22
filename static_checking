@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int w;
+    int *x;
+    int y=100;
+    int *z=&y;
+    //printf("w=%d x=%d y=%d z=%d ",w,*x,y,*z);
+
+  return 0;
+}
